@@ -4,6 +4,7 @@
 
 This project is built in **ASP.NET Core MVC**
 
+
 All the API calls are async.
 
 ## 📒 Table of Contents 
