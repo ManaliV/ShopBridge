@@ -2,7 +2,7 @@
 
 **Shop Bridge** is an eCommerce application. This repository is just a demo project, implementation for module "Product Solution" used by admin  that helps track the different items for sale.
 
-This project is built in **ASP.NET Core MVC**
+This project is built in **ASP.NET Core(Target Framework is .Net Core 3.1)**
 
 
 All the API calls are async.

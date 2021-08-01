@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-ShopBridge.Web-5258CCAC-6020-45BA-8057-3603CBE4A67D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBridge.Core\ShopBridge.Core.csproj" />
+    <ProjectReference Include="..\ShopBridge.Infrastructure\ShopBridge.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ShopBridge.Core">
+      <HintPath>..\ShopBridge.Core\obj\Debug\netcoreapp3.1\ShopBridge.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ShopBridge.Infrastructure">
+      <HintPath>..\ShopBridge.Infrastructure\obj\Release\netcoreapp3.1\ShopBridge.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

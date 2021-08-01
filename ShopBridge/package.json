@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "ShopBridge",
+  "description": "Web dependencies",
+  "license": "",
+  "dependencies": {
+    "admin-lte": "2.3.11",
+    "bootstrap": "3.3.7",
+    "ckeditor": "4.6.2",
+    "datatables": "1.10.13",
+    "datatables-bootstrap": "0.0.1",
+    "font-awesome": "4.7.0",
+    "icheck": "1.0.2",
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.3",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "morris.js": "0.5.0",
+    "raphael": "2.2.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
